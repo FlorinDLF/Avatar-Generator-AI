@@ -1,2 +1,46 @@
-# Avatar-Generator-AI
-A web application that allows users to create stylized avatars (cartoon, anime, Pixar, or 3D) from a personal photo or live camera capture. It uses OpenAI’s GPT-4o for image analysis, DALL·E 3 for image generation, and DeepFace for facial attribute extraction.
+# AI Avatar Generator
+
+A web application that allows users to create personalized AI avatars from a photo or live camera input. The app offers four distinct styles: **cartoon**, **anime**, **Pixar**, and **3D**. Powered by **OpenAI GPT-4o**, **DALL·E 3**, and **DeepFace**, the application analyzes facial features and automatically generates detailed prompts for avatar creation.
+
+## Features
+
+- Upload a photo or capture one using your webcam
+- Automatically detect age, gender, emotion, ethnicity using DeepFace
+- Generate avatars in one of four unique styles:
+  - Cartoon
+  - Anime
+  - Pixar-like
+  - 3D realistic
+- Live image preview and animated loading state
+- Download generated avatar in high resolution
+
+## 🛠Technologies Used
+
+- **Frontend:** React, HTML5, CSS3
+- **Backend:** Python (Flask), OpenAI API, DeepFace, requests
+- **AI Services:**
+  - OpenAI GPT-4o (vision + text analysis)
+  - DALL·E 3 (image generation)
+  - DeepFace (facial attribute extraction)
+- **Multimedia Processing:** base64, webcam capture, FormData uploads
+
+## Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/avatar-generator.git
+
+2. **Backend Setup (Python):**
+  Install required packages:
+    pip install flask flask-cors openai deepface python-dotenv requests
+  Create a .env file with your OpenAI key:
+    OPENAI_API_KEY=your_openai_api_key_here
+  Run the server:
+    python app.py
+
+3. **Frontend Setup (React):**
+  Navigate to the frontend folder and install dependencies:
+    npm install
+  Run the development server:
+    npm start
+
