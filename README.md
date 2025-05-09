@@ -35,8 +35,10 @@ A web application that allows users to create personalized AI avatars from a pho
     ```bash
     pip install flask flask-cors openai deepface python-dotenv requests
   Create a .env file with your OpenAI key:
+  
     OPENAI_API_KEY=your_openai_api_key_here
   Run the server:
+  
     python app.py
 
 4. **Frontend Setup (React):**
