@@ -27,10 +27,11 @@ A web application that allows users to create personalized AI avatars from a pho
 ## Installation & Setup
 
 1. **Clone the repository:**
+   
    ```bash
    git clone https://github.com/your-username/avatar-generator.git
 
-2. **Backend Setup (Python):**
+3. **Backend Setup (Python):**
 
   Install required packages:
   
@@ -42,7 +43,7 @@ A web application that allows users to create personalized AI avatars from a pho
   
     python app.py
 
-4. **Frontend Setup (React):**
+3. **Frontend Setup (React):**
 
 
   Navigate to the frontend folder and install dependencies:
