@@ -32,15 +32,18 @@ A web application that allows users to create personalized AI avatars from a pho
 
 2. **Backend Setup (Python):**
   Install required packages:
+    ```bash
     pip install flask flask-cors openai deepface python-dotenv requests
   Create a .env file with your OpenAI key:
     OPENAI_API_KEY=your_openai_api_key_here
   Run the server:
     python app.py
 
-3. **Frontend Setup (React):**
+4. **Frontend Setup (React):**
   Navigate to the frontend folder and install dependencies:
+    ```bash
     npm install
   Run the development server:
+    
     npm start
 
