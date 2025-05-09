@@ -31,8 +31,9 @@ A web application that allows users to create personalized AI avatars from a pho
    git clone https://github.com/your-username/avatar-generator.git
 
 2. **Backend Setup (Python):**
+
   Install required packages:
-    ```bash
+  
     pip install flask flask-cors openai deepface python-dotenv requests
   Create a .env file with your OpenAI key:
   
@@ -42,8 +43,10 @@ A web application that allows users to create personalized AI avatars from a pho
     python app.py
 
 4. **Frontend Setup (React):**
+
+
   Navigate to the frontend folder and install dependencies:
-    ```bash
+  
     npm install
   Run the development server:
     
